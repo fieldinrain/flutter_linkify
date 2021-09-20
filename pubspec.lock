@@ -28,7 +28,7 @@ packages:
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.5.0"
+    version: "2.6.1"
   boolean_selector:
     dependency: transitive
     description:
@@ -154,10 +154,12 @@ packages:
   linkify:
     dependency: "direct main"
     description:
-      name: linkify
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "4.0.0"
+      path: "."
+      ref: add-replace-url
+      resolved-ref: ff38df729a67bf15c40da18f9cd5d924555ef7d5
+      url: "git@github.com:fieldinrain/linkify.git"
+    source: git
+    version: "4.1.0"
   logging:
     dependency: transitive
     description:
@@ -192,7 +194,7 @@ packages:
       name: node_preamble
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.4.13"
+    version: "2.0.1"
   package_config:
     dependency: transitive
     description:
@@ -281,7 +283,7 @@ packages:
       name: source_span
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.8.0"
+    version: "1.8.1"
   stack_trace:
     dependency: transitive
     description:
@@ -316,21 +318,21 @@ packages:
       name: test
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.16.5"
+    version: "1.16.8"
   test_api:
     dependency: transitive
     description:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.19"
+    version: "0.3.0"
   test_core:
     dependency: transitive
     description:
       name: test_core
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.3.15"
+    version: "0.3.19"
   typed_data:
     dependency: transitive
     description:
